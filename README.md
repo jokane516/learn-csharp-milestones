@@ -71,10 +71,10 @@ Diving into Variables, Types, and Methods (38–64)
 		- [X] Use access modifiers to make your variables explicitly `public` and `private`
 		- [X] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
 		- [X] Concatenate strings using the `+` operator, and the string interpolation method `$`
-	- [ ] Methods
-		- [ ] Define a simple method with parameters
-		- [ ] Add a return type and return some data from a method
-		- [ ] Use data returned from a method
+	- [X] Methods
+		- [X] Define a simple method with parameters
+		- [X] Add a return type and return some data from a method
+		- [X] Use data returned from a method
 - [X] ✏️ Explain some differences between public and private variables: The biggest difference is public variables are not restricted access wise while private variables have access limited to the containing type.
 
 
