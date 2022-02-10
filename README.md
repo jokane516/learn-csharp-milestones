@@ -48,27 +48,27 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [Link](file:///Applications/Unity/Hub/Editor/2021.2.9f1/Documentation/en/Manual/class-Transform.html)
-- [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: [Link](file:///Applications/Unity/Hub/Editor/2021.2.9f1/Documentation/en/ScriptReference/MonoBehaviour.html)
-- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [Link](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
+- [X] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [Link](file:///Applications/Unity/Hub/Editor/2021.2.9f1/Documentation/en/Manual/class-Transform.html)
+- [X] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: [Link](file:///Applications/Unity/Hub/Editor/2021.2.9f1/Documentation/en/ScriptReference/MonoBehaviour.html)
+- [X] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [Link](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
 
 
 ## Chapter 2
 The Building Blocks of Programming (22–37)
 
-- [ ] Open the Unity project contained within this repo
-- [ ] Create Assets/Scripts/LearningCurve.cs
-	- [ ] Create C# variables with typeof `int`, `float`, `string`, and `bool`
+- [X] Open the Unity project contained within this repo
+- [X] Create Assets/Scripts/LearningCurve.cs
+	- [X] Create C# variables with typeof `int`, `float`, `string`, and `bool`
 	- [ ] Add a single line, multi line, and summary comment to LearningCurve.cs
-	- [ ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
+	- [X] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
 Diving into Variables, Types, and Methods (38–64)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Variables
-		- [ ] Use access modifiers to make your variables explicitly `public` and `private`
+- [X] Update Assets/Scripts/LearningCurve.cs
+	- [X] Variables
+		- [X] Use access modifiers to make your variables explicitly `public` and `private`
 		- [ ] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
 		- [ ] Concatenate strings using the `+` operator, and the string interpolation method `$`
 	- [ ] Methods
