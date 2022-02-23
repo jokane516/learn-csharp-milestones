@@ -23,11 +23,22 @@ public class LearningCurve : MonoBehaviour
     Debug.Log(real);
 
     string starter = $"{line} World";
+
+    bool result = IsTrue(real);
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    bool IsTrue(bool real){
+      if(real==true){
+        return true;
+      }
+      else{
+        return false;
+      }
     }
   }
