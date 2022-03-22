@@ -125,15 +125,15 @@ Working with Classes, Structs, and OOP (94–119)
 		- [X] Create a `Weapon` field inside the Paladin class
 		- [ ] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
 	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate a new Paladin object `knight` from the Paladin class
+		- [X] Instantiate a new Paladin object `knight` from the Paladin class
 		- [ ] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
 - Referencing objects
 	- [ ] Update Assets/Scripts/LearningCurve.cs
 		- [ ] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Main Camera's `Transform`
-		- [ ] Store a reference to the Light `GameObject` using `GameObject.Find()`
-		- [ ] Store a reference to the Light's `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Light's `Transform`
+		- [X] Log a reference to the `localPosition` field of the Main Camera's `Transform`
+		- [X] Store a reference to the Light `GameObject` using `GameObject.Find()`
+		- [X] Store a reference to the Light's `Transform` component using `GetComponent<>()`
+		- [x] Log a reference to the `localPosition` field of the Light's `Transform`
 
 
 
@@ -160,12 +160,12 @@ Movement, Camera Controls, and Collisions (149–175)
 - [ ] Camera Controls
 	- [ ] Add a script to the main camera that follows and looks at the player
 - [ ] Physics and Collisions
-	- [ ] Use `FixedUpdate()` to control game objects using Unity's physics engine
-	- [ ] Apply physics forces to a game object RigidBody using `MovePosition()`
+	- [X] Use `FixedUpdate()` to control game objects using Unity's physics engine
+	- [X] Apply physics forces to a game object RigidBody using `MovePosition()`
 	- [ ] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **??**
 	- [ ] Use `OnCollisionEnter()` to check if a game object has run into another collider
-	- [ ] Use `Destroy()` to remove a game object from the scene
-	- [ ] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
+	- [X] Use `Destroy()` to remove a game object from the scene
+	- [X] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
 
 
 
@@ -178,11 +178,11 @@ Scripting Game Mechanics (176–207)
 	- [ ] Capture keyboard input in C# using the `enum` type and value `KeyCode.Space`
 	- [ ] Use `AddForce()` to make a character jump
 	- [ ] Use a `LayerMask` and a new "Ground" layer in Unity to determine if a character is "IsGrounded"
-- [ ] Add a shooting mechanic
-	- [ ] Create a "projectile" prefab that moves forward using `RigidBody.velocity`
-	- [ ] Instantiate the projectile on click and destroy it after `3` seconds
-- [ ] Create a GameManager
- 	- [ ] Use `get` and `set` properties to return and assign properties that are used across the game
+- [X] Add a shooting mechanic
+	- [X] Create a "projectile" prefab that moves forward using `RigidBody.velocity`
+	- [X] Instantiate the projectile on click and destroy it after `3` seconds
+- [X] Create a GameManager
+ 	- [X] Use `get` and `set` properties to return and assign properties that are used across the game
 - [ ] Add a simple UI to inform the user of game state(s)
 	- [ ] Add text to show the health and items counts to the user
 	- [ ] Add a win condition to the game and display it in the UI
